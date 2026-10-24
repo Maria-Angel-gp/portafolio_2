@@ -1,0 +1,101 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navegador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navegador nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    border: 1px solid rgb(165, 1, 202);
+    width: 500px;
+    border-radius: 20px;
+    height: 30px;
+    padding: 10px;
+    box-shadow: 10px 10px 11px rgba(165, 1, 202, 0.536);
+}
+
+.navegador nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.navegador nav a:hover{
+    color: rgb(165, 1, 202);
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(165, 1, 202);
+    text-align: center;
+    width: 900px;
+    justify-self: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgba(165, 1, 202, 0.289);
+    box-shadow: 10px 10px 11px rgba(165, 1, 202, 0.536);
+}
+
+.acerca{
+    width: 900px;
+    display: flex;
+    border: 1px solid rgb(165, 1, 202);
+    justify-self: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: rgba(165, 1, 202, 0.289);
+    flex-direction: column;
+    box-shadow: 10px 10px 11px rgba(165, 1, 202, 0.536);
+}
+
+.acerca .experiencia{
+    margin-left: 10px;
+}
+
+.proyectos{
+    width: 900px;
+    display: flex;
+    border: 1px solid rgb(165, 1, 202);
+    justify-self: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: rgba(165, 1, 202, 0.289);
+    box-shadow: 10px 10px 11px rgba(165, 1, 202, 0.536);
+    flex-direction: column;
+    padding: 20px;
+}
+
+.proyectos .box-proyectos{
+    margin-left: 20px;
+}
+
+.proyectos .box-proyectos img{
+    width: 700px;
+    border-radius: 20px;
+}
+
+.proyectos .box-proyectos button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(165, 1, 202);
+    background-color: rgb(165, 1, 202);
+}
+
+.proyectos .box-proyectos button a{
+    color: white;
+    text-decoration: none;
+}
+
+.box-proyectos .eventos{
+    margin-top: 20px;
+}
